@@ -1,0 +1,38 @@
+.medical-records-container {
+  padding: 20px;
+  flex: 1;
+}
+
+.record-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.record-form input,
+.record-form textarea {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.record-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.records-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.records-list li {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

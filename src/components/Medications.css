@@ -1,0 +1,37 @@
+.medications-container {
+  padding: 20px;
+  flex: 1;
+}
+
+.med-form,
+.allergy-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.med-form input,
+.allergy-form input {
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+}
+
+section li {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}

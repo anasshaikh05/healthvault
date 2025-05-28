@@ -1,0 +1,47 @@
+.sidebar {
+  width: 220px;
+  background-color: #1e1e2f;
+  color: #ffffff;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: #00bcd4;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+  background-color: #333; /* Or any color you prefer */
+  font-weight: bold;
+  color: white; /* Make the active link stand out */
+  padding: 10px;
+  border-radius: 4px;
+}
+

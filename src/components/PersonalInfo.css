@@ -1,0 +1,37 @@
+.personal-info-container {
+  padding: 20px;
+  flex: 1;
+}
+
+.personal-info-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 10px;
+}
+
+input,
+select,
+textarea {
+  padding: 8px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.personal-info-summary {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
